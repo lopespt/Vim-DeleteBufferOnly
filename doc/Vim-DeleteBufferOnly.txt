@@ -1,0 +1,23 @@
+*Vim-DeleteBufferOnly.txt*
+================================================================================
+Vim-BufferDeleteOnly
+
+This plugin is declares a function that deletes buffer without closing
+windows.
+
+COMMANDS:
+
+:[N]Bd[!]
+              Unload buffer [N] and delete it from the buffer list preserving
+              the current window. If [!] is provided force deletion.
+
+:Bd[!] {fname}
+              Unload buffer with name {fname} and delete it from the buffer
+              list preserving the current window. If [!] is provided force
+              deletion.
+================================================================================
+Author:
+
+Guilherme Wachs Lopes
+
+  vim:tw=78:ts=2:sts=2:sw=2:ft=help:norl:
